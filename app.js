@@ -63,7 +63,7 @@ function game(userChoice) {
   }
 }
 
-function main () {
+function main() {
   rock_Div.addEventListener('click', () => game("rock"));
   paper_Div.addEventListener('click', () => game("paper"));
   scissors_Div.addEventListener('click', () => game("scissors"));
